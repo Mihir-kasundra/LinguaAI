@@ -1,0 +1,65 @@
+classDiagram
+    class User {
+        +int id
+        +string username
+        +string email
+        +string password_hash
+        +datetime created_at
+        +register()
+        +login()
+    }
+    class Admin {
+        +int id
+        +string username
+        +string email
+        +manageUsers()
+        +manageLanguages()
+        +manageTranscriptions()
+        +manageMessages()
+    }
+    class Language {
+        +int id
+        +string name
+        +string region
+        +string country
+        +string status
+        +string speakers
+        +add()
+        +edit()
+        +delete()
+    }
+    class RecognitionLanguage {
+        +int id
+        +string code
+        +string name
+        +boolean is_active
+        +toggleStatus()
+        +add()
+        +delete()
+    }
+    class Transcription {
+        +int id
+        +string txn_id
+        +string language
+        +string notes
+        +string text_content
+        +int chars
+        +int words
+        +datetime created_at
+        +save()
+        +export()
+    }
+    class Message {
+        +int id
+        +string name
+        +string email
+        +string subject
+        +string message
+        +datetime created_at
+        +send()
+        +delete()
+    }
+    
+    User <|-- Admin : Extends
+    User "1" -- "*" Transcription : Generates
+    User "1" -- "*" Message : Sends

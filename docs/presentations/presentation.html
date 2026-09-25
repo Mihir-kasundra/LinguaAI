@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LinguaAI - Project Presentation</title>
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css" id="theme">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 {
+            font-family: 'Playfair Display', serif;
+            color: #2d6a4f;
+            text-transform: none;
+        }
+        .reveal p, .reveal li {
+            font-family: 'DM Sans', sans-serif;
+            color: #1a1208;
+            font-size: 0.9em;
+        }
+        .accent { color: #c47b2b; font-style: italic; }
+        .footer-logo {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 1.2rem;
+            color: #2d6a4f;
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background-color="#f8fdfa">
+                <span style="display:inline-block; padding:5px 15px; background-color:#e8f4ef; color:#2d6a4f; border-radius:20px; font-size:1.5rem; font-family:'DM Sans';">College Research Project</span>
+                <h1 style="margin-top: 30px;">LinguaAI</h1>
+                <h2>Preserving Voices<br/><span class="accent">Before They Fade</span></h2>
+                <p style="margin-top: 40px; color: #6b5c40;">Harnessing AI to document and protect critically endangered native languages.</p>
+            </section>
+
+            <!-- Problem Statement -->
+            <section>
+                <h2>The Problem</h2>
+                <p>According to UNESCO, <strong>a language dies every 14 days</strong>.</p>
+                <ul style="margin-top:20px;">
+                    <li>Out of 7,000+ spoken languages, over 3,000 are endangered.</li>
+                    <li>When a language is lost, indigenous knowledge, history, and cultural identity are erased.</li>
+                    <li>Traditional documentation by linguists is slow and resource-intensive.</li>
+                </ul>
+            </section>
+
+            <!-- Solution -->
+            <section>
+                <h2>Our Solution: LinguaAI</h2>
+                <p>An accessible, web-based platform that democratizes language preservation by combining <strong>Community Effort</strong> with <strong>Artificial Intelligence</strong>.</p>
+                <ul style="margin-top:20px;">
+                    <li><strong>🌍 Global Database:</strong> Public educational database of endangered statuses.</li>
+                    <li><strong>🎙️ Speech AI:</strong> Live speech recognition for low-resource transcription.</li>
+                    <li><strong>💾 Safe Archiving:</strong> A centralized MySQL backend structure to safely store recorded culture.</li>
+                </ul>
+            </section>
+
+            <!-- Methodology -->
+            <section>
+                <h2>Methodology & Process</h2>
+                <ol>
+                    <li><strong>Literature Review:</strong> Studied UNESCO Atlas & linguistic papers.</li>
+                    <li><strong>Technology Selection:</strong> HTML/PHP for optimal accessibility (rural connectivity) and Web Speech API for transcription.</li>
+                    <li><strong>Data Gathering:</strong> Categorized 25 critically endangered languages for our seed archive.</li>
+                    <li><strong>Implementation:</strong> Built dual User/Admin systems with authenticated sessions.</li>
+                </ol>
+            </section>
+
+            <!-- Tech Stack -->
+            <section>
+                <h2>Technology Stack</h2>
+                <div style="display: flex; justify-content: space-around; margin-top: 40px;">
+                    <div>
+                        <h3 style="font-size:1.5rem">Frontend</h3>
+                        <ul>
+                            <li>Vanilla HTML5 & CSS3</li>
+                            <li>JavaScript (jQuery)</li>
+                            <li>Web Speech API (AI Model)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style="font-size:1.5rem">Backend</h3>
+                        <ul>
+                            <li>PHP (Session Management)</li>
+                            <li>MySQL (Relational Database)</li>
+                            <li>Native Authentication</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Features - User -->
+            <section>
+                <h2>Key Features <span class="accent">(User)</span></h2>
+                <ul>
+                    <li>Secure User Registration and Session Login.</li>
+                    <li>Interactive Endangered Languages Atlas.</li>
+                    <li>Live Web Speech Transcriber to convert mic input to text.</li>
+                    <li>Save, fetch, and download Transcriptions.</li>
+                    <li>Contact forms to submit field-recorder findings.</li>
+                </ul>
+            </section>
+
+            <!-- Key Features - Admin -->
+            <section>
+                <h2>Key Features <span class="accent">(Admin)</span></h2>
+                <ul>
+                    <li>Secluded Admin Portal login workflow.</li>
+                    <li>Complete view of the centralized Transcription database.</li>
+                    <li>CSV Data Exports for Researchers / Academics.</li>
+                    <li>Review global Contact inquiries directly from platform.</li>
+                </ul>
+            </section>
+
+            <!-- Future Scope & Conclusion -->
+            <section data-background-color="#f8fdfa">
+                <h2>Conclusion & Future Scope</h2>
+                <p>LinguaAI demonstrates that modern technology doesn't have to erase indigenous cultures — it can help save them.</p>
+                <ul style="margin-top: 20px;">
+                    <li><strong>Future:</strong> Integration of Whisper (OpenAI) backend models.</li>
+                    <li><strong>Future:</strong> Native offline Mobile App for deeper field research.</li>
+                </ul>
+                <h3 style="margin-top: 50px;">Thank You!</h3>
+            </section>
+
+        </div>
+        <div class="footer-logo">🌿 LinguaAI</div>
+    </div>
+
+    <!-- Reveal.js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            controls: true,
+            progress: true,
+            center: true,
+            slideNumber: 'c/t'
+        });
+    </script>
+</body>
+</html>

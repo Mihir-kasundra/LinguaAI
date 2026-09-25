@@ -1,0 +1,56 @@
+=== TRANSCRIPTION [txn_69b6c5559b22c] ===
+Timestamp: 2026-03-15 15:42:29
+Language: English
+Notes: Automated test
+Text:
+Testing the PHP server data flow
+============================================================
+
+=== TRANSCRIPTION [txn_69b6c5fcd9943] ===
+Timestamp: 2026-03-15 15:45:16
+Language: Hello. I do not meditate.
+Notes: english
+Text:
+Hello. I do not meditate.
+============================================================
+
+=== TRANSCRIPTION [txn_69b6c621077d9] ===
+Timestamp: 2026-03-15 15:45:53
+Language: Hello. I do not meditate.
+Notes: english
+Text:
+Hello. I do not meditate.
+============================================================
+
+=== TRANSCRIPTION [txn_69b6c6cdb60a9_0] ===
+Timestamp: 2026-03-14 15:48:45
+Language: Spanish
+Notes: Test with a common language API.
+Text:
+Hola, cómo estás hoy? El clima es muy agradable para un paseo.
+============================================================
+
+=== TRANSCRIPTION [txn_69b6c6cdb675e_1] ===
+Timestamp: 2026-03-13 15:48:45
+Language: Ainu
+Notes: Rare language - testing proxy transcription workflow via Japanese phonetics. Speaker: Elder from Hokkaido.
+Text:
+Irankarapte. Kanto poro no, a-kusu nuye ka e-huye ka siri ne yakka.
+============================================================
+
+=== TRANSCRIPTION [txn_69b6c6cdb69b3_2] ===
+Timestamp: 2026-03-12 15:48:45
+Language: Quechua
+Notes: Andean dialect variant. Recorded during fieldwork.
+Text:
+Rimaykullayki. Allillanchu kashanki? Ñuqapas allillanmi kashani.
+============================================================
+
+=== TRANSCRIPTION [txn_69b6c6cdb6d41_3] ===
+Timestamp: 2026-03-11 15:48:45
+Language: Navajo
+Notes: Testing tonal detection limitations.
+Text:
+Yáʼátʼééh. Shí éí Ashiihí nishłį́. Haltsooí bashishchiin.
+============================================================
+

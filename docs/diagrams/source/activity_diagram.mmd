@@ -1,0 +1,14 @@
+stateDiagram-v2
+    [*] --> SelectLanguage : Open Transcribe Page
+    SelectLanguage --> StartRecording : Click Microphone
+    StartRecording --> ProcessSpeech : Speak into Mic
+    ProcessSpeech --> LivePreview : Web Speech API Translates
+    LivePreview --> ProcessSpeech : Continue Speaking
+    LivePreview --> StopRecording : Stop Microphone
+    StopRecording --> EditTranscription : Manual Corrections (Optional)
+    EditTranscription --> SaveArchive : Click 'Save to Archive'
+    SaveArchive --> BackendValidation
+    BackendValidation --> DatabaseStorage : Valid Data
+    BackendValidation --> EditTranscription : Invalid Data (Missing fields)
+    DatabaseStorage --> UpdateArchiveList
+    UpdateArchiveList --> [*]

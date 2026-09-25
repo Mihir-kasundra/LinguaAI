@@ -1,0 +1,21 @@
+flowchart LR
+    A["<img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTUwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjE1MCI+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSIzMCIgcj0iMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iNCIvPgogIDxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIxMDAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iNCIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjY1IiB4Mj0iODAiIHkyPSI2NSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPGxpbmUgeDE9IjUwIiB5MT0iMTAwIiB4Mj0iMjAiIHkyPSIxNDAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iNCIvPgogIDxsaW5lIHgxPSI1MCIgeTE9IjEwMCIgeDI9IjgwIiB5Mj0iMTQwIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjQiLz4KPC9zdmc+Cg==' width='120' height='180'/><br>Administrator"]
+    style A fill:transparent,stroke:transparent,color:#000
+
+    subgraph LinguaAI Admin System
+        UC1(Admin Authentication / Login)
+        UC2(Manage User Accounts)
+        UC3(Manage Endangered Languages)
+        UC4(Manage Recognition Languages)
+        UC5(Manage Transcriptions Archive)
+        UC6(View & Manage Contact Messages)
+        UC7(Export Data to CSV)
+    end
+
+    A --> UC1
+    A --> UC2
+    A --> UC3
+    A --> UC4
+    A --> UC5
+    A --> UC6
+    A --> UC7

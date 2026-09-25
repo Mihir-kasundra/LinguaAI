@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+temp/
+scratch/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Environment & Private Configs
+.env
+config.local.php

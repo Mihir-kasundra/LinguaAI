@@ -1,0 +1,6 @@
+[2026-03-15 15:42:41] Name: Test User | Email: test@example.com | Org:  | Subject: Inquiry
+Message: Hello this is an automated test
+------------------------------------------------------------
+[2026-03-15 15:49:03] Name: Test Email Sender | Email: test_return@gmail.com | Org:  | Subject: Inquiry
+Message: Hello this is an automated test ensuring mail is sent.
+------------------------------------------------------------
